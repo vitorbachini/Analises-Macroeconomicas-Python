@@ -2,21 +2,16 @@
 
 Estudo das relações entre SELIC, IPCA e Taxa de Câmbio (USD/BRL) utilizando dados reais do Banco Central do Brasil (2010–2025), foi baseado em Análises Estatísticas, Análises Gráficos e Modelos Vetoriais Autorregressivos (VAR).
 
-📊 Objetivo
-Compreender as dinâmicas e transmissões macroeconômicas entre taxa de juros, inflação e câmbio, aplicando metodologia econométrica rigorosa (testes de estacionariedade, VAR, diagnóstico de resíduos, função impulso–resposta).
+### 📊 Objetivo
 
-📁 Estrutura do Projeto
-text
-├── notebooks/
-│   ├── 01-processo-etl.ipynb              
-│   └── 02-analises-macroeconomicas.ipynb  
-├── data/
-│   └── dados_financeiros.csv                                   
-└── README.md                               
+Compreender as dinâmicas e transmissões macroeconômicas entre taxa de juros, inflação e câmbio, aplicando metodologia econométrica rigorosa (testes de estacionariedade, VAR, diagnóstico de resíduos, função impulso–resposta).                          
 
-🚀 Para acessar o projeto completo basta abrir os notebooks.
+### 🚀 Arquivos do Projeto 
 
-📌 Principais Etapas
+Você pode acessar os aquivos do projeto completo clicando [aqui](https://github.com/vitorbachini/Analises-Macroeconomicas-Python/tree/main/notebooks).
+
+### 📌 Principais Etapas
+
 ETL: Extração, transformação e carregamento dos dados extraídos da API do Banco Central.
 
 Exploração: Visualização das séries e estatísticas descritivas.
@@ -31,7 +26,7 @@ Diagnóstico: Análise de resíduos (Ljung-Box, Jarque-Bera, estabilidade).
 
 Impulso–Resposta: Mapeamento de transmissões de choques (12 meses).
 
-📈 Resultados Principais
+### 📈 Resultados Principais
 
 - A Taxa Selic é uma ferramenta importante do nosso Sistema Financeiro, o governo a utiliza para tentar conter a inflação e alta do Dólar, isso fica claro através das análises gráficas e estatísticas realizadas no estudo. Durante os diversos ciclos da economia brasileira no período ela se mostrou bem volátil, tendo como valor mínimo 1,9% e valor máximo 14,9%.
   
