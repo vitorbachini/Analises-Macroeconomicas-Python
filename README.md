@@ -5,6 +5,17 @@ Estudo das relações entre SELIC, IPCA e Taxa de Câmbio (USD/BRL) utilizando d
 📊 Objetivo
 Compreender as dinâmicas e transmissões macroeconômicas entre taxa de juros, inflação e câmbio, aplicando metodologia econométrica rigorosa (testes de estacionariedade, VAR, diagnóstico de resíduos, função impulso–resposta).
 
+📁 Estrutura do Projeto
+text
+├── notebooks/
+│   ├── 01-processo-etl.ipynb              
+│   └── 02-analises-macroeconomicas.ipynb  
+├── data/
+│   └── dados_financeiros.csv                                   
+└── README.md                               
+
+🚀 Para acessar o projeto completo basta abrir os notebooks.
+
 📌 Principais Etapas
 ETL: Extração, transformação e carregamento dos dados extraídos da API do Banco Central.
 
